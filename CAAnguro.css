@@ -421,10 +421,10 @@ body{
                 }
             
                 .navbar li{
-                    padding: 0px 5px; /* remove the top/bottom padding and set left/right padding to 15px */
+                    padding: 0px 3px; /* remove the top/bottom padding and set left/right padding to 3px */
                   }
                 .navbar a {
-                    padding-right: 5px;
+                    padding-right: 2px;
                   }
 		    
 		                        .heart , .print{                    
