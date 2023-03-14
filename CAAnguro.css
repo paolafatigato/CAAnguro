@@ -198,15 +198,15 @@ body{
                         margin: 9px;
                         margin-bottom: 1px;
                         position: absolute; /* set position to absolute */
-                        left: 90%; /* move the buttons to the horizontal center of the parent div */
+                        left: 85%; /* move the buttons to the horizontal center of the parent div */
                         bottom: 3.5px; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
-                        transform: translateX(-10%); 
+                        transform: translateX(-15%); 
                       }
                       .print{
                         position: absolute; /* set position to absolute */
-                        left: 85%; /* move the buttons to the horizontal center of the parent div */
+                        left: 75%; /* move the buttons to the horizontal center of the parent div */
                         bottom: 0px; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
-                        transform: translateX(-15%); 
+                        transform: translateX(-25%); 
                       }
                       
                       .heart-button:hover ,.print:hover {
