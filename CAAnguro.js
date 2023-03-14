@@ -308,20 +308,28 @@ window.location.href = '#LAVORI';
                       const boxtestoCs = document.querySelectorAll('.boxtestoC');
                       const boxtestoC = event.target.closest('.boxtestoC');
                       const boxtestoBs = document.querySelectorAll('.boxtestoB');
-                
-                      // get the index del box specifico
-                      
+                      // get the index del box specifico                      
                       const n = Array.prototype.indexOf.call(boxtestoCs, boxtestoC);
                 
                       const boxtestoB = boxtestoBs[n];
 
                         // add class to heart in boxtestoC
                 const heartC = event.target;
-                heartC.classList.add('hearted');
+
 
                 // find heart in boxtestoB and add same class
                 const heartB = boxtestoB.querySelector('.heartB');
-                heartB.classList.add('hearted');
+
+
+                if (heartC.classList.contains('hearted')) {
+                  // remove "hearted" class from both hearts
+                  heartC.classList.remove('hearted');
+                  heartB.classList.remove('hearted');
+                } else {
+                  // add "hearted" class to both hearts
+                  heartC.classList.add('hearted');
+                  heartB.classList.add('hearted');
+                }
               }
               function HeartB(event) {
                 // prendi il genitore del bottone
@@ -337,10 +345,17 @@ window.location.href = '#LAVORI';
 
                   // add class to heart in boxtestoC
               const heartB = event.target;
-              heartB.classList.add('hearted');
 
               // find heart in boxtestoB and add same class
               const heartC = boxtestoC.querySelector('.heartC');
-              heartC.classList.add('hearted');
-              }
 
+              if (heartC.classList.contains('hearted')) {
+                // remove "hearted" class from both hearts
+                heartC.classList.remove('hearted');
+                heartB.classList.remove('hearted');
+              } else {
+                // add "hearted" class to both hearts
+                heartC.classList.add('hearted');
+                heartB.classList.add('hearted');
+              }
+              }
