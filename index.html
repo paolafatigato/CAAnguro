@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>CAAnguro</title>
+    <link rel="stylesheet" type="text/css" href="CAAnguro.css">
+</head>
+
+
+
+
+
+<body>
+
+    <div id="Home" class="section"> 
+            <header id="headerCAA" class="headerCAA">
+                <div id="simbolotit" class="simbolotit"></div>
+                <h1> <span class="shadow">CAA</span>nguro</h1>
+            </header>
+        <!------------------------------------------->
+                <nav id="navbarhome" class="navbar">
+                    <ul>
+
+                        <li><a href="#LAVORI">Lavori in corso</a></li>
+                        <li><a href="#sBIBLIOTECAtop">Biblioteca</a></li>
+                        <li><a href="#BIBLIOTECA">BiblioteCAA</a></li>
+                    </ul> 
+                </nav>
+        <!-------------------------------------------> 
+            <section id="home">
+                    <form action=""> <!--TEXTBOX-->
+                    <label for=""></label> 
+                    <textarea id="textbox" placeholder="inserisci il tuo testo" cols="30" rows="10"></textarea>
+                    <button id="RESETbutton" class="button resetbutton" onclick="RESET()">RESET</button>
+                    <button id="salvabutton" class="button salvabutton" onclick="Salva(event)">SALVA</button>
+            </section>
+
+    </div>  
+   
+ <div class="clear"></div>
+
+<!------------------------------------------->     
+
+<div id="BIBLIOTECAtop" class="section">
+    <section id="sBIBLIOTECAtop" >
+        <h2 id="titBiblioteca" class="titSezione">Biblioteca</h2>
+        <!------------------------------------------->
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#LAVORI">Lavori in corso</a></li>
+                        <li><a href="#BIBLIOTECA">BiblioteCAA</a></li>
+                    </ul> 
+                </nav>
+        <!-------------------------------------------> 
+
+
+        <div class="contenitoreboxtestoC contenitoriboxtesto">
+            <!--<div id="boxtestoC1" class="boxtestoC"> Completi: lavori completi-->
+                <!--qua mettiamo i testi su cui hanno lavorato
+                <a class="button" onclick="ReadMore(event)">LEGGI</a> 
+               
+            </div>-->
+        </div>
+    </section>
+    <div class="clear"></div>
+</div> 
+
+<!------------------------------------------->
+<div id="lavoriincorso" class="section"> 
+        <section id="LAVORI" >
+                <h2 id="titLavori" class="titSezione">Lavori in corso </h2>
+                <!------------------------------------------->
+                        <nav id="navbar" class="navbar">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#sBIBLIOTECAtop">Biblioteca</a></li>
+                                <li><a href="#BIBLIOTECA">BiblioteCAA</a></li>
+                            </ul> 
+                        </nav>
+                <!-------------------------------------------> 
+
+
+
+                    <div id="contenitoreboxtestoL" class="contenitoriboxtesto">
+
+            <!--<div class="boxtestoL">
+                <h4></h4>
+                <h5 class="h5 h5inboxtestoL"></h5>
+                <a class="button buttondown" onclick="Traduci(event)">TRADUCI</a>
+            </div>-->
+
+                 </div>
+        </section>
+        <div class="clear"></div>
+    <!------------------------------------------->
+        <div id="TRADUZIONI" class="pagina2">
+            <h3 id="titTradurre" class="titSezione">TRADURRE</h3>
+
+                                            <!------------------------------------------->
+                                            <nav id="link" class="navbar link">
+                                                <ul>
+                                                    <li class="scrittenav"> scarica simboli:</li>
+                                                    <li><a href="https://arasaac.org/pictograms/search" target="_blank">ARASAAC</a></li>
+                                                    <li><a href="https://www.opensymbols.org/search?q=" target="_blank">Open Symbols</a></li>
+                                                </ul> 
+                                            </nav>
+                                    <!-------------------------------------------> 
+
+            <!---------------------------------------------------------->
+                    <section id="spazioperTradurre">
+                        <div id="areaT" class="areaT">
+                           <!--ci serve la PeB perchè poi diciamo che se ce n'è una, aggiungiamo la sorellina-->
+                                <!--<div class="divinareaT"><
+                                    <img class="imgDivT" src="" alt="">
+                                    <h4 class="singolaparola"></h4>
+                                    <button class="InsertImage button" onclick="IImm()">+immagine</button>
+                                </div> --> 
+        
+                        </div>
+                    </section>
+            <!---------------------------------------------------------->
+
+                <!--<button id="salvaP" class="button salvabutton" onclick="SalvaP()">SALVA I PROGRESSI</button>-->
+                <button id="salvaT" class="button salvabutton" onclick="SalvaT()">SALVA</button>
+                        
+            
+            <div class="clear"></div>
+            <!---------------------------------------------------------->
+        </div>
+</div>
+<!------------------------------------------->     
+<div id="BIBLIOTECAA" class="section">
+    <section id="BIBLIOTECA" >
+        <h2 id="titBiblioteCAA" class="titSezione">BiblioteCAA</h2>
+        <!------------------------------------------->
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#LAVORI">Lavori in corso</a></li>
+                        <li><a href="#BIBLIOTECAtop">Biblioteca</a></li>
+                    </ul> 
+                </nav>
+        <!-------------------------------------------> 
+
+        <div class="contenitoreboxtestoB contenitoriboxtesto"> <!--
+        
+            <div id="boxtestoB1" class="boxtestoB">
+                <h4>Titolo</h4>
+                <div class="divinareaB">
+                   <img class="imgDivT" src="" alt="">
+                    <h4 class="singolaparola"></h4>                    
+                </div>
+
+                <div>
+                <a class="button" onclick="modifica(event)">MODIFICA</a>
+                <i class="far fa-heart"></i>
+                <a class="button print" onclick="print(event)"><i class="fas fa-print"></i></a>
+                </div>
+            </div>
+
+
+      --> </div>      
+    </section>
+    <div class="clear"></div>
+</div> 
+
+
+
+<div class="divxfoot">
+<footer id="footer1" class="footer"> 
+    <p>copyright &copy; Paola</p> 
+</footer>
+</div>
+
+<script src="CAAnguro.js"></script> 
+</body>
+</html>
