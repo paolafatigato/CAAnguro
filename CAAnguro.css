@@ -423,11 +423,9 @@ body{
                 }
             
                 .navbar li{
-                    padding: 0px 5px; /* remove the top/bottom padding and set left/right padding to 15px */
+                    padding: 0px 2px; /* remove the top/bottom padding and set left/right padding to 15px */
                   }
-                .navbar a {
-                    padding-right: 5px;
-                  }
+
                 }
 
                 @media print {
