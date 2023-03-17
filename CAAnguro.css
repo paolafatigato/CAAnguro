@@ -425,7 +425,9 @@ body{
                 .navbar li{
                     padding: 0px 2px; /* remove the top/bottom padding and set left/right padding to 15px */
                   }
-
+	#caadescr{
+	font-size:10px;
+	}
                 }
 
                 @media print {
