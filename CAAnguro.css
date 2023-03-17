@@ -440,6 +440,7 @@ body{
                   }
             
                   .navbar li {
+		   font-size: 14px;
                     margin: 5px ;
                     display: flex;
                     align-items: center;
