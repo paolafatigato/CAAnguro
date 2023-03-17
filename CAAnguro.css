@@ -427,7 +427,23 @@ body{
                   }
 	#caadescr{
 	font-size:10px;
+	 line-height: 1.3;
 	}
+	               .navbar ul {
+                    list-style: none;
+                    display: flex;
+                    justify-content: center;
+                    text-align: justify;
+                    width: 90%;
+                    margin-left: auto;
+                    margin-right: auto;
+                  }
+            
+                  .navbar li {
+                    margin: 5px ;
+                    display: flex;
+                    align-items: center;
+                  }
                 }
 
                 @media print {
