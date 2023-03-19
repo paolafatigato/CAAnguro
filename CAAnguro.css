@@ -220,7 +220,7 @@ body{
             margin-left: auto;
             margin-right: auto;
 
-            background-image: url(../IMMAGINI/simbolo.png);
+            background-image: url(simbolo.png);
             height: 200px;
             width: 200px;
             background-size:cover;
@@ -364,7 +364,7 @@ body{
                 margin-left: auto;
                 margin-right: auto;
             
-                background-image: url(../IMMAGINI/simbolo.png);
+                background-image: url(simbolo.png);
                 height: 100px;
                /* padding-top: 50%;
                 width: 50%;*/
@@ -477,7 +477,7 @@ body{
                 position: relative;
     }     
     #caa1{
-        background-image: url(../IMMAGINI/caa1.png);
+        background-image: url(caa1.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position:  center 26%; /*horiz vert*/
@@ -486,7 +486,7 @@ body{
     }
 
     #caa2{
-        background-image: url(../IMMAGINI/caa2.png);
+        background-image: url(caa2.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position:  center 26%; /*horiz vert*/
@@ -575,7 +575,7 @@ body{
 
     /*.simbolonav:hover {
         background-color: #ff121a;
-        background-image: url(../IMMAGINI/simbolo.png);
+        background-image: url(simbolo.png);
         background-blend-mode: screen;
         background-clip: content-box;
       }*/
