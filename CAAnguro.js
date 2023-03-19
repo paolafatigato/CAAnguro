@@ -154,7 +154,8 @@ function Salva(event) {
                 };
                 
 
-function SalvaT(){ //per                  
+function SalvaT(event){ //per    
+  event.preventDefault();
               // Create a new boxtestoC element
               const boxtestoC = document.createElement('div');
               boxtestoC.classList.add('boxtestoC');
