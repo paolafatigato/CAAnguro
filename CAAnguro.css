@@ -22,23 +22,24 @@ body{
     font-size: 16px;
     margin: 0;
     background-color: #ecf5c0;
-    background: linear-gradient(to right, #cb5aed, #ff3838);
+    background: linear-gradient(to left, #cb5aed, #ff3838);
     text-align: center;
-    height: 100%; /*nothing changes*/
     color: #252d34;
-    
-}
-
-.clear{
-     clear:both
-}
+    }
 
 .section{
     height: 100%;
-	width: 100%;
-    padding-bottom: calc(100vh - 120px);/*altezza viewport meno altezza sezione*/
+    min-height: 100vh;
+    /*padding-bottom: calc(100vh - 120px);altezza viewport meno altezza sezione*/
+} /*per rendere ogni sezione grande quanto tutto lo schermo*/
+#headerCAA{
+    background: linear-gradient(to left, #ff121a, #cb5aed);
+    padding: 1px;
+    /*border-bottom: #252d34 solid 2px;*/
 }
-
+#lavoriincorso{
+    background: linear-gradient(to left, #D3E289, #cb5aed);
+} 
     /*FOOTER------------------------------------------------------*/
     .divxfoot{
         position: relative;
@@ -48,9 +49,7 @@ body{
         position: absolute; /*gli altri elementi faranno come se non ci fosse!*/
         bottom: 2px;
         width: 100%;
-        text-align: center;
         color: #cb5aed;
-        /*transform: translateX(-50%); no idea what this does*/
     }
     /*------------------------------------------------------*/
 
@@ -59,7 +58,6 @@ body{
 .titSezione {
     font-size: 29px;
     letter-spacing: 1px;
-    margin:5px 0px 0px 0px ;/*TOP RIGHT BOTTOM LEFT*/
     line-height: 43px;
     height: 43px;
 }
@@ -70,7 +68,7 @@ body{
     padding: 4px;
 }
  #titBiblioteCAA {
-    margin: 10px 0 -16px 0; /*TOP RIGHT BOTTOM LEFT*/
+    margin: 0px 0 -16px 0; /*TOP RIGHT BOTTOM LEFT*/
     background-color:#FF4242 ;
     color: #252d34;
 }
@@ -98,7 +96,6 @@ body{
                 color: white;
                 text-align: center;
                 letter-spacing: 1px;
-                margin: 0px;
                 height: 33px;
                 line-height: 33px; /* set line-height equal to the navbar height */
             }
@@ -106,8 +103,14 @@ body{
             .scrittenav{
                 color: #D3E289;
             }
+            #navbarhome ul{
+                margin: 0px;
+            }
+            #navbarhome{
+                background-color: #cb5aed;
+            }
         
-            .navbar li{
+            .navbar li {
                 display: inline-block; /* set display to inline-block to apply vertical padding */
                 padding: 0px 15px; /* remove the top/bottom padding and set left/right padding to 15px */
                 vertical-align: middle; /* set vertical-align to middle to center the text vertically */
@@ -118,9 +121,7 @@ body{
                 padding-right: 15px;
                 vertical-align: middle; /* set vertical-align to middle to center the text vertically */
               }
-           /* .navbar a:visited{
-                  color: #E0D3DE;
-            }*/
+
             .navbar a:hover{
                 color: #FF4242 ;
             }
@@ -136,7 +137,7 @@ body{
 
                     /*BUTTONS-------------------------------------------------*/
                     .button{
-                        background-color: #226F54; /* rgb(14, 115, 48);*/
+                        background-color: #226F54;
                         padding: 5px;
                         text-decoration: none;
                         color: white;
@@ -163,43 +164,22 @@ body{
                                 .resetbutton{
                                     background-color: #cb5aed;
                                 }
-                                .salvabutton:hover{
-                                    /*background-color: #dfe100;
-                                    color: #005fff ;*/
-                                    background-color:#3c5f51; /* rgb(11, 97, 40);*/
-                                    color: white;
-                                }
-                                #salvaP {
-                                    background-color: rgb(35, 35, 38);
-                                }
-                                #salvaP:hover {
-                                    background-color: rgb(26, 26, 28);
-                                }
+
 
                             .tastiboxtestoB{
                         width:100%;
                         height: 36px;
                         padding: 1px;
                     }          
-                    .modificabutton{
-
-                        margin:  9px;
-                        margin-bottom: 0; /* remove bottom margin */
-                        width: 100%;
-                        text-align: center;
-                    }
                     .heart , .print{
-                        background-color: white;
+                        background-color: transparent;
                         border: none;
                         color:#cb5aed;
                         font-size: 20px;
                         cursor: pointer;
-                        outline: none;
-                        margin: 9px;
-                        margin-bottom: 1px;
                         position: absolute; /* set position to absolute */
                         left: 90%; /* move the buttons to the horizontal center of the parent div */
-                        bottom: 3.5px; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
+                        bottom: 5px; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
                         transform: translateX(-10%); 
                       }
                       .print{
@@ -207,9 +187,10 @@ body{
                         left: 85%; /* move the buttons to the horizontal center of the parent div */
                         bottom: 0px; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
                         transform: translateX(-15%); 
+                        font-size: 18px;
                       }
                       
-                      .heart-button:hover ,.print:hover {
+                      .heart:hover ,.print:hover {
                         color: #9851f6;
                         filter: brightness(100%);
                       }
@@ -218,8 +199,8 @@ body{
                       }
                       .heartC{
                         position: absolute;
-                        bottom: 0px;
-                        left: 1px;
+                        bottom: 3px;
+                        left: 4px;
                     }
 
                     .buttondown{
@@ -239,10 +220,8 @@ body{
             margin-left: auto;
             margin-right: auto;
 
-            background-image: url(simbolo.png);
+            background-image: url(../IMMAGINI/simbolo.png);
             height: 200px;
-        /* padding-top: 50%;
-            width: 50%;*/
             width: 200px;
             background-size:cover;
             background-repeat: no-repeat;
@@ -261,7 +240,7 @@ body{
                 margin-left: auto;
                 margin-right: auto;
                 /**/
-                margin-top: 10px;
+                margin-top: 16px;
                 margin-bottom: 10px;
                 border-radius: 8px;
                 border-color:rgb(35, 35, 38);/*  #FFF94F #cb5aed ;*/
@@ -300,7 +279,7 @@ body{
                 padding-bottom: 25px;/*per isolare i buttons dal resto*/
         }
 
-        .boxtestoC h4{
+        .boxtestoC h4, .boxtestoL h5{
             /* per far vedere solo 4 linee del testo*/
             overflow: hidden;
             text-overflow: ellipsis;
@@ -308,15 +287,6 @@ body{
             -webkit-line-clamp: 4;
             -webkit-box-orient: vertical;
         }
-        .boxtestoL h5{
-            overflow: hidden;
-            text-overflow: ellipsis;
-            display: -webkit-box; /* per far vedere solo 4 linee del testo*/
-            -webkit-line-clamp: 4;
-            -webkit-box-orient: vertical;
-        }
-
-
 
 /* proviamo a risolvere il problema dello split*/
         /*----------+IMMAGINE----tasto insert image----------------*/
@@ -325,15 +295,15 @@ body{
             display: flex;
             flex-wrap: wrap; /*per avvolgere i divinareaT*/
             justify-content: space-between;
-            margin: 8px 4.5% 8px 1.5%; /*TOP RIGHT BOTTOM LEFT*/
-            width: 96%;
+            margin: 8px 1.5% 8px 1.5%; /*TOP RIGHT BOTTOM LEFT*/
+            width: 95%;
             float: none;
             align-items: stretch;
-            padding: 3px;
+            padding: 1%;
           }
 
           .divinareaT, .divinareaB {
-            width: 15%; 
+            width: 10%; 
             margin: 0px 3px 4px 3px; /*TOP RIGHT BOTTOM LEFT */
             display: flex;
             flex-direction: column; 
@@ -375,19 +345,15 @@ body{
         }
             .divinareaB .parole{
                 font-family: OpenDyslexic;
-                text-transform:uppercase;
+                /*text-transform:uppercase;*/
             justify-content: flex-end;
             align-items: center;
             }
 
 
 
-#lavoriincorso{
-    background: linear-gradient(to right, #D3E289, #9851f6);
-} 
-#BIBLIOTECAA {
-    margin-top: 0;
-}
+
+
           
 
 
@@ -398,7 +364,7 @@ body{
                 margin-left: auto;
                 margin-right: auto;
             
-                background-image: url(simbolo.png);
+                background-image: url(../IMMAGINI/simbolo.png);
                 height: 100px;
                /* padding-top: 50%;
                 width: 50%;*/
@@ -416,6 +382,10 @@ body{
                  .boxtestoC{
                     width: 45%;
                  }
+                 .divinareaT, .divinareaB {
+                    width: 18%; }
+
+
 
                  .navbar{
                     letter-spacing: 0px;
@@ -425,53 +395,57 @@ body{
                 }
             
                 .navbar li{
-                    padding: 0px 2px; /* remove the top/bottom padding and set left/right padding to 15px */
+                    padding: 0px 1px; /* remove the top/bottom padding and set left/right padding to 15px */
                   }
-	#caadescr{
-	font-size:10px;
-	 line-height: 1.3;
-	}
-	               .navbar ul {
+                .navbar a {
+                    padding-right: 2px;
+                  }
+                #caadescr{
+                    font-size: 10px;
+                    line-height: 1.3;
+                }
+
+                .navbar ul {
                     list-style: none;
                     display: flex;
                     justify-content: center;
                     text-align: justify;
                     width: 90%;
-                    margin-left: auto;
-                    margin-right: auto;
                   }
             
                   .navbar li {
-		   font-size: 14px;
+                    font-size: 14px;
                     margin: 5px ;
                     display: flex;
                     align-items: center;
                   }
                 }
-@media(max-width:500px){
-       .navbar li {
-		   font-size: 10px;
-                  }
-	#caadescr {
-  font-size: 10px;
-  line-height: 1.3;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 10; /* Change this number to set the number of lines */
-  -webkit-box-orient: vertical;
-}
 
-}
+         @media(max-width:500px){
+                    .navbar li {
+                        font-size: 10px;
+                               }
+                 #caadescr {
+               font-size: 10px;
+               line-height: 1.3;
+               overflow: hidden;
+               text-overflow: ellipsis;
+               display: -webkit-box;
+               -webkit-line-clamp: 10; /* Change this number to set the number of lines */
+               -webkit-box-orient: vertical;
+             }
+             }
 
-                @media print {
-                    #Home , #BIBLIOTECAtop, #lavoriincorso{
-                        display: none;
-                      }
-                    .tastiboxtestoB , .divxfoot {
-                      display: none;
-                    }
-                  }
+        @media print {
+            #Home , #BIBLIOTECAtop, #lavoriincorso{
+                display: none;
+                }
+            .tastiboxtestoB , .divxfoot {
+                display: none;
+            }
+            .divinareaT, .divinareaB {
+                width: 20%; }
+            }
                   
                   /*..PAG2 ..........................................................................*/
                   .body2{
@@ -503,7 +477,7 @@ body{
                 position: relative;
     }     
     #caa1{
-        background-image: url(caa1.png);
+        background-image: url(../IMMAGINI/caa1.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position:  center 26%; /*horiz vert*/
@@ -512,7 +486,7 @@ body{
     }
 
     #caa2{
-        background-image: url(caa2.png);
+        background-image: url(../IMMAGINI/caa2.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position:  center 26%; /*horiz vert*/
@@ -521,7 +495,7 @@ body{
         transform: translateX(-50%);
         width: 50%;
         aspect-ratio: 1/1;
-        margin: 16px 0 0 0;
+        margin: 19px 0 0 0;/*TOP RIGHT BOTTOM LEFT*/
     }
 
     .bb{
@@ -546,7 +520,23 @@ body{
         text-align: justify;
         padding: 5px 50px;
     }
+   /* #caadescr {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 10; 
+        line-clamp: 10;
+      }*/
+      .collapsible {
+        max-height: 13.0em; /* 13 lines of text */
+        overflow: hidden;
+        line-height: 1.3;
+      }
+      
 
+      
+      
+      
     .simbolonav{
         height: 20px;
         width: 20px;
@@ -585,7 +575,7 @@ body{
 
     /*.simbolonav:hover {
         background-color: #ff121a;
-        background-image: url(simbolo.png);
+        background-image: url(../IMMAGINI/simbolo.png);
         background-blend-mode: screen;
         background-clip: content-box;
       }*/
