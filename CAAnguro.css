@@ -433,7 +433,9 @@ body{
                display: -webkit-box;
                -webkit-line-clamp: 10; /* Change this number to set the number of lines */
                -webkit-box-orient: vertical;
-             }
+             }            
+             .divinareaT, .divinareaB {
+                width: 20%; }
              }
 
         @media print {
@@ -443,8 +445,7 @@ body{
             .tastiboxtestoB , .divxfoot {
                 display: none;
             }
-            .divinareaT, .divinareaB {
-                width: 20%; }
+
             }
                   
                   /*..PAG2 ..........................................................................*/
