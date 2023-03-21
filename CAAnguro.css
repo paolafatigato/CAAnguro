@@ -362,7 +362,7 @@ body{
           
 
 
-            @media(max-width:700) {
+            @media(max-width:700px) {
 
 html{
     font-size: 14px;
@@ -411,7 +411,7 @@ html{
                   }
                 }
 
-         @media(max-width:500){
+         @media(max-width:500px){
                     html {
                         font-size: 11px;
                                }
