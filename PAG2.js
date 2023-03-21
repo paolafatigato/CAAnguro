@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", function() {
     document.getElementById("boxbianco").style.top = top + "px";
   });
 
-/collapsible? 
+//collapsible? 
 let collapseButton = document.querySelector('.collapsebutton');
 let collapsible = document.querySelector('.collapsible');
 
