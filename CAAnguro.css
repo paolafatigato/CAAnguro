@@ -225,16 +225,16 @@ body{
             margin-right: auto;
 
             background-image: url(simbolo.png);
-            height: 12em;
-            width: 12em;
+            height: 12rem;
+            width: 12rem;
             background-size:cover;
             background-repeat: no-repeat;
             background-position: center, center;
         }
         #simbolotit2{
             margin-top: 1.3em ;
-            height:3.2em;
-            width:3.2em;
+            height:3.2rem;
+            width:3.2rem;
         }
 
             /*TEXTBOX spazio per input1a pag................................................*/          
