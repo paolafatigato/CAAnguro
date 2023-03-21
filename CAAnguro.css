@@ -413,10 +413,13 @@ html{
 
          @media(max-width:500){
                     html {
-                        font-size: 12px;
+                        font-size: 11px;
                                }
                                .navbar li{
                                font-size:10px}
+                .navbar a{
+                               font-size:10px}
+               
              }
 
         @media print {
