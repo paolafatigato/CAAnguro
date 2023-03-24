@@ -1,0 +1,395 @@
+/* PALETTE
+#232326  rgb(35, 35, 38) DARKGREY
+#A6A6A6  LIGHT GREY
+#cb5aed   ORANGE
+#FFF94F  YELLOWINO
+#226F54  VERDONE
+*/
+
+/*palette2
+#252d34 VERDEscurissimo
+#3c5f51 verde scuro
+#D3E289 VERDE CHIARO
+#cb5aed LILLA
+#E0D3DE lilla chiaro
+#C05746 CORALLO // #FF4242
+*/
+/*TOP RIGHT BOTTOM LEFT*/
+html{
+    font-size: 16px;  
+}
+body{
+  font-family: "Lato", sans-serif;
+  line-height: 1.6rem;
+
+  margin: 0;
+  background-color: #ecf5c0;
+  background: linear-gradient(to left, #cb5aed, #ff3838);
+  text-align: center;
+  color: #252d34;
+  }
+
+.section{
+  min-height: 100vh;
+
+} /*per rendere ogni sezione grande quanto tutto lo schermo*/
+#headerCAA{
+  background: linear-gradient(to left, #ff121a, #cb5aed);
+  padding: 0.01em;
+  /*border-bottom: #252d34 solid 0.125em;*/
+}
+#lavoriincorso{
+  background: linear-gradient(to left, #D3E289, #cb5aed);
+} 
+  /*FOOTER------------------------------------------------------*/
+  .divxfoot{
+      position: relative;
+      margin: 3em; /*così il footer sta in quei 50 px */
+      bottom: 0;
+      padding: 0.6em;
+  }
+  .footer{
+      position: absolute; /*gli altri elementi faranno come se non ci fosse!*/
+      bottom: 0.125em;
+      width: 100%;
+      color: #cb5aed;
+  }
+  /*------------------------------------------------------*/
+
+
+/*titoli SEZIONI-------------------------------------*/
+.titSezione {
+  font-size: 2rem;
+  letter-spacing: 0.063em;
+  line-height: 2.7rem;
+  height: 2.7rem;
+}
+#titTradurre {
+  margin: 0.625rem 0 -1rem 0; /*TOP RIGHT BOTTOM LEFT*/
+  background-color:#D3E289 ;
+  color: #9851f6;
+  padding: 0.25em;
+}
+#titBiblioteCAA {
+  margin: 0 0 -1rem 0; /*TOP RIGHT BOTTOM LEFT*/
+  background-color:#FF4242 ;
+  color: #252d34;
+}
+#titBiblioteca, #titLavori {
+  margin: 0.625rem 0 -1rem 0; /*TOP RIGHT BOTTOM LEFT*/
+  background-color:#cb5aed ;
+  color: #252d34;
+}
+
+  .headerCAA{
+      font-size:1.3rem;
+      text-shadow: 0.125rem 0 0 #cb5aed; /*il terzo numero è per blurred, 1 destra, 2 su, 3 blurred*/
+  }
+  .shadow{
+      text-shadow: 0.125rem 0 0 #FF4242; /*il terzo numero è per blurred, 1 destra, 2 su, 3 blurred*/
+      /*to apply to a specific text, gli puoi mettere la classe shadow e poi ci metti un altro h1 accanto per esempio*/
+  }
+
+
+
+
+/*NAVBAR----------------------------------------*/
+          .navbar ul{
+              background-color: #252d34;
+              color: white;
+              letter-spacing: 0.0625em;
+              height: 2.1em;
+              line-height: 2.05em; /* set line-height equal to the navbar height */
+              width: 100%;
+              list-style: none;
+              padding: 0;
+              display:flex;/*metterli orizziontali*/
+              justify-content: center;
+          }
+ 
+          #navbarhome ul{
+              margin-top: 0;
+              background-color: #cb5aed;
+
+          }
+          .link ul{
+              background-color: #226F54;
+          }
+          .scrittenav{
+              color: #D3E289;
+          }
+          .navbar li {
+              padding: 0 1em; /* remove the top/bottom padding and set left/right padding to 1em */
+             /*  vertical-align: middle; set vertical-align to middle to center the text vertically */
+            }
+          .navbar a{
+              color: white;
+              text-decoration: none;
+              padding: 0.2em;
+            }
+
+          .navbar a:hover{
+              color: #FF4242 ;
+          }
+          #sBIBLIOTECAtop   .navbar a:hover,
+          #LAVORI   .navbar a:hover,
+          #BIBLIOTECA   .navbar a:hover{
+              color: #cb5aed;
+          }
+
+/*-----------------------------------------------------*/
+
+                  /*BUTTONS-------------------------------------------------*/
+                  .button{
+                      background-color: #226F54;
+                      padding: 5px;
+                      text-decoration: none;
+                      color: white;
+                      
+                  }
+                  .button:hover{
+                      filter:brightness(90%);
+                      color: white;
+                      cursor: pointer;
+                      margin-right: 4px;
+                      
+                  }
+                  .button:after{
+                      color: #E0D3DE;
+                  }
+                              .salvabutton, .resetbutton{
+                                  font-size: 0.9rem;
+                                  font-weight: bold;
+                                  border: white;
+                                  border-radius:0.37em;
+                                  letter-spacing: 0.125em;
+                                  margin: 0.18rem   0.31em;
+                              }
+                              .resetbutton{
+                                  background-color: #cb5aed;
+                              }
+
+
+                          .tastiboxtestoB{
+                      width:100%;
+                      height: 2.25em;
+                      padding: 0.0625em;
+                  }          
+                  .heart , .print{
+                      background-color: transparent;
+                      border: none;
+                      color:#cb5aed;
+                      font-size: 1.3rem;
+                      cursor: pointer;
+                      position: absolute; /* set position to absolute */
+                      left: 90%; /* move the buttons to the horizontal center of the parent div */
+                      bottom: 5px; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
+                      transform: translateX(-10%); 
+                    }
+                    .print{
+                      position: absolute; /* set position to absolute */
+                      left: 85%; /* move the buttons to the horizontal center of the parent div */
+                      bottom: 0; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
+                      transform: translateX(-15%); 
+                      font-size: 1.1rem;
+                    }
+                    
+                    .heart:hover ,.print:hover {
+                      color: #9851f6;
+                      filter: brightness(100%);
+                    }
+                    .hearted {
+                      color: #FF4242;
+                    }
+                    .heartC{
+                      position: absolute;
+                      bottom: 3px;
+                      left: 4px;
+                  }
+
+                  .buttondown{
+                      position: absolute; /* set position to absolute */
+            left: 50%; /* move the buttons to the horizontal center of the parent div */
+            bottom: 0; /* adjust the value as needed to position the buttons at the desired distance from the bottom */
+            transform: translateX(-50%);  
+                  }
+            
+                    
+
+      /*1A PAGINA --------------------------------------------------------*/
+
+      .simbolotit{
+          text-align: center;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+
+          background-image: url(../IMMAGINI/simbolo.png);
+          height: 12rem;
+          width: 12rem;
+          background-size:cover;
+          background-repeat: no-repeat;
+          background-position: center, center;
+      }
+      #simbolotit2{
+          margin-top: 1.3em ;
+          height:3.2rem;
+          width:3.2rem;
+      }
+
+          /*TEXTBOX spazio per input1a pag................................................*/          
+          #textbox{
+              /*per centrare*/
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              /**/
+              margin-top: 16px;
+              margin-bottom: 0.63em;
+              border-radius: 0.5em;
+              border-color:rgb(35, 35, 38);/*  #FFF94F #cb5aed ;*/
+              border-width: 0;
+              width: 60%;
+          }
+          textarea{
+              padding: 0.63rem 0.63rem 0 0.63rem ;/*TOP RIGHT BOTTOM LEFT*/
+              letter-spacing: 0.03rem;
+          }
+          ::placeholder{ /*inserisci il tuo testo*/
+              text-align: left;
+              font-size: 1rem;
+              color: #cb5aed;
+              
+          }
+          /*..............................................................*/
+      /*||1A------------------------------------------------------------------*/
+
+  /*BOX TESTO-----------------------------------------------*/   
+  .contenitoriboxtesto{
+      /* per mettere i boxtestoC, cioè i div contenuti, tutti in ordine uno accanto all'altro, lasciando lo stesso margine da entrambi i lati*/
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+      /*-------------------------*/
+  }
+      .boxtestoB, .boxtestoC, .boxtestoL{
+          width: 31%;
+          box-sizing: border-box;
+          padding: 5px;
+          padding-bottom: 0.0625em;
+          background-color: white;
+          margin: 5px;
+              position: relative;/*x mettere i buttons in basso fissi*/
+              padding-bottom: 25px;/*per isolare i buttons dal resto*/
+      }
+
+      .boxtestoC h4, .boxtestoL h5{
+          /* per far vedere solo 4 linee del testo*/
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box; 
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+      }
+
+/* proviamo a risolvere il problema dello split*/
+      /*----------+IMMAGINE----tasto insert image----------------*/
+      .areaT, .boxtestoB { 
+          background-color: white;
+          display: flex;
+          flex-wrap: wrap; /*per avvolgere i divinareaT*/
+          justify-content: space-evenly;
+          margin: 8px 1.5% 8px 1.5%; /*TOP RIGHT BOTTOM LEFT*/
+          width: 95%;
+          float: none;
+          align-items: stretch;
+          padding: 1%;
+        }
+
+        .divinareaT, .divinareaB {
+          width: 10%; 
+          margin: 0 3px 4px 3px; /*TOP RIGHT BOTTOM LEFT */
+          display: flex;
+          flex-direction: column; 
+        }   
+              .immagini{
+                  flex: 1;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+              }          
+                  .immagini img {
+                      max-width: 5em; /*100% è l'alternativa*/
+                      max-height: 5em;
+                      object-fit: cover;
+                      padding: 3px 0;
+                  }
+              .parole{
+                  flex: 1;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: space-between;
+                  align-items: center;                    
+              }
+                  .singolaparola {
+                      margin: 5px;
+                  }
+              .InsertImage {
+                  justify-content: flex-end;
+                  align-items: center;
+                  min-width: 79px;
+                  border: #D3E289;
+              }
+
+      .boxtestoB{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: row;
+          align-items: flex-end;
+      }
+          .divinareaB .parole{
+              font-family: OpenDyslexic;
+              font-size: 1.2rem;
+              /*text-transform:uppercase;*/
+          justify-content: flex-end;
+          align-items: center;
+          }
+     
+
+  @media(max-width:750px) {
+
+html{
+  font-size: 14px;
+}
+              .boxtestoB{
+               width: 100%;
+               float: none;}
+
+               .boxtestoC{
+                  width: 45%;
+               }
+               .divinareaT, .divinareaB {
+                  width: 18%; 
+                }
+
+              #caadescr{
+                  line-height: 1.8rem;
+              }
+              }
+
+       @media(max-width:500px){
+                  html {
+                      font-size: 12px;
+                             }
+           }
+
+      @media print {
+          #Home , #BIBLIOTECAtop, #lavoriincorso{
+              display: none;
+              }
+          .tastiboxtestoB , .divxfoot {
+              display: none;
+          }
+          .divinareaT, .divinareaB {
+              width: 20%; }
+          }
