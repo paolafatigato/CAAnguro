@@ -289,22 +289,22 @@ background-color: transparent;
     width: 23%;
   }
       #step1{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 0 0;/* horizontally vertically*/
       }
       #step2{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 25% 0;/* horizontally vertically*/
       }
       #step3{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 50% 0;/* horizontally vertically*/
       }
       #step4{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 100% 0;/* horizontally vertically*/
       }
@@ -359,17 +359,17 @@ background-color: transparent;
     }
 
     #gallery1{
-      background-image: url(../IMMAGINI/gradiente.png);
+      background-image: url(gradiente.png);
       background-size: 400%;        
       background-position: 0 0;/* horizontally vertically*/
     }
     #gallery2{
-      background-image: url(../IMMAGINI/gallery2.png);
+      background-image: url(gallery2.png);
       background-size: cover;        
       background-position: 25% 0;/* horizontally vertically*/
     }
         #gallery2 ul{
-          background-image: url(../IMMAGINI/gradiente.png);
+          background-image: url(gradiente.png);
           background-size: 400%;        
           background-position: 25% 0;/* horizontally vertically*/
           margin-top: 6em;
@@ -382,12 +382,12 @@ background-color: transparent;
 
         }
     #gallery3{
-      background-image: url(../IMMAGINI/gradiente.png);
+      background-image: url(gradiente.png);
       background-size: 400%;        
       background-position: 50% 0;/* horizontally vertically*/
     }
     #gallery4{
-      background-image: url(../IMMAGINI/gradiente.png);
+      background-image: url(gradiente.png);
       background-size: 400%;        
       background-position: 100% 0;/* horizontally vertically*/
     }
