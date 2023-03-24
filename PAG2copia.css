@@ -98,7 +98,7 @@ body{
     
     /*IMMAGINI*/
             #caa1{
-                background-image: url(../IMMAGINI/caa1.png);
+                background-image: url(caa1.png);
                 background-size:cover;
                 background-repeat: no-repeat;
                 background-position:  center 26%; /*horiz vert*/
@@ -106,7 +106,7 @@ body{
             }
     
             #caa2{
-                background-image: url(../IMMAGINI/caa2.png);
+                background-image: url(caa2.png);
                 background-size:cover;
                 background-repeat: no-repeat;
                 width: 50%;
@@ -116,7 +116,7 @@ body{
             }
 
             #caa3{
-              background-image: url(../IMMAGINI/perchi.png);
+              background-image: url(perchi.png);
               background-size:cover;
               background-repeat: no-repeat;
               width: 100%;
@@ -159,7 +159,7 @@ background-color: transparent;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        background-image: url(../IMMAGINI/simbolo.png);
+        background-image: url(simbolo.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center, center;}
@@ -401,17 +401,6 @@ background-color: transparent;
 html{
   font-size: 14px;
 }
-              .boxtestoB{
-               width: 100%;
-               float: none;}
-
-               .boxtestoC{
-                  width: 45%;
-               }
-               .divinareaT, .divinareaB {
-                  width: 18%; 
-                }
-
               #caadescr{
                   line-height: 1.8rem;
               }
@@ -423,13 +412,4 @@ html{
                              }
            }
 
-      @media print {
-          #Home , #BIBLIOTECAtop, #lavoriincorso{
-              display: none;
-              }
-          .tastiboxtestoB , .divxfoot {
-              display: none;
-          }
-          .divinareaT, .divinareaB {
-              width: 20%; }
-          }
+    
