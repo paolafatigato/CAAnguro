@@ -98,7 +98,7 @@ body{
     
     /*IMMAGINI*/
             #caa1{
-                background-image: url(../IMMAGINI/caa1.png);
+                background-image: url(caa1.png);
                 background-size:cover;
                 background-repeat: no-repeat;
                 background-position:  center 26%; /*horiz vert*/
@@ -106,7 +106,7 @@ body{
             }
     
             #caa2{
-                background-image: url(../IMMAGINI/caa2.png);
+                background-image: url(caa2.png);
                 background-size:cover;
                 background-repeat: no-repeat;
                 width: 50%;
@@ -116,7 +116,7 @@ body{
             }
 
             #caa3{
-              background-image: url(../IMMAGINI/perchi.png);
+              background-image: url(perchi.png);
               background-size:cover;
               background-repeat: no-repeat;
               width: 100%;
@@ -159,7 +159,7 @@ background-color: transparent;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        background-image: url(../IMMAGINI/simbolo.png);
+        background-image: url(simbolo.png);
         background-size:cover;
         background-repeat: no-repeat;
         background-position: center, center;}
@@ -290,22 +290,22 @@ background-color: transparent;
     width: 23%;
   }
       #step1{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 0 0;/* horizontally vertically*/
       }
       #step2{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 25% 0;/* horizontally vertically*/
       }
       #step3{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 50% 0;/* horizontally vertically*/
       }
       #step4{
-        background-image: url(../IMMAGINI/gradiente.png);
+        background-image: url(gradiente.png);
         background-size: 400%;        
         background-position: 100% 0;/* horizontally vertically*/
       }
@@ -367,7 +367,7 @@ background-color: transparent;
     
 
     #gallery1{
-      background-image: url(../IMMAGINI/img12.jpg);
+      background-image: url(img12.jpg);
       background-size: cover;
       background-position: center;
       position: relative;
@@ -395,7 +395,7 @@ background-color: transparent;
             }
 
         #img1red, #img2red{
-            /*background-image: url(../IMMAGINI/img1red.png);
+            /*background-image: url(img1red.png);
             background-position: -72px 239px; horizontally vertically*/
             position: absolute;
             width: 80%;
@@ -418,7 +418,7 @@ background-color: transparent;
 
               
     #gallery2{
-      background-image: url(../IMMAGINI/galleryw.png);
+      background-image: url(galleryw.png);
       background-size: cover;        
       background-position: 25% 0;/* horizontally vertically*/
     }
@@ -426,7 +426,7 @@ background-color: transparent;
         color:#cb5aed;
     }
         #gallery2 ul{
-          background-image: url(../IMMAGINI/gradiente.png);
+          background-image: url(gradiente.png);
           background-size: 400%;        
           background-position: 25% 0;/* horizontally vertically*/
           margin-top: 6em;
@@ -439,7 +439,7 @@ background-color: transparent;
 
         }
     #gallery3{
-      background-image: url(../IMMAGINI/gradiente.png);
+      background-image: url(gradiente.png);
       background-size: 400%;        
       background-position: 68.8% 0;/* horizontally vertically*/
     }
@@ -453,7 +453,7 @@ background-color: transparent;
         color: white;
     }
         #img3{
-            background-image: url(../IMMAGINI/g3.png);
+            background-image: url(g3.png);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center, center;
@@ -474,7 +474,7 @@ background-color: transparent;
         position: relative;       
     }
     #rigagallery4{
-         background-image: url(../IMMAGINI/gradiente.png);
+         background-image: url(gradiente.png);
         background-repeat: no-repeat;
       background-size: 400%;     
       background-position: 100% ;/* horizontally vertically*/
@@ -500,17 +500,17 @@ background-color: transparent;
                 margin: 0.9em;                
             }
                 #ig41{
-                    background-image: url(../IMMAGINI/img41.png);
+                    background-image: url(img41.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
                 #ig42{
-                    background-image: url(../IMMAGINI/img42.png);
+                    background-image: url(img42.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
                 #ig43{
-                    background-image: url(../IMMAGINI/img43.png);
+                    background-image: url(img43.png);
                     background-repeat: no-repeat;
                     background-size: cover;
                 }
