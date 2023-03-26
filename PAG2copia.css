@@ -372,7 +372,7 @@ background-color: transparent;
       background-position: center;
       position: relative;
     }
-    #gallery1 .gallerybutton{
+    #gallery1 .galleryright{
         color: white;
     }
          #gallery1ul{
@@ -519,6 +519,9 @@ background-color: transparent;
                 
             }
 
+    .deletebutton{
+        color: transparent;
+    }
 
 
 
@@ -528,16 +531,6 @@ background-color: transparent;
 html{
   font-size: 14px;
 }
-              .boxtestoB{
-               width: 100%;
-               float: none;}
-
-               .boxtestoC{
-                  width: 45%;
-               }
-               .divinareaT, .divinareaB {
-                  width: 18%; 
-                }
 
               #caadescr{
                   line-height: 1.8rem;
@@ -550,13 +543,4 @@ html{
                              }
            }
 
-      @media print {
-          #Home , #BIBLIOTECAtop, #lavoriincorso{
-              display: none;
-              }
-          .tastiboxtestoB , .divxfoot {
-              display: none;
-          }
-          .divinareaT, .divinareaB {
-              width: 20%; }
-          }
+     
